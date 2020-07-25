@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, intial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+	/* css reset */
+	body{
+	font-family: 'Baloo Bhai 2', cursive;
+	margin:0px;
+	pading:0px;
+	background:url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	}
+	.left{
+	position:absolute;
+	left:20px;
+	top:25px;
+	display:inline-block;
+	}
+	.left img{
+	width:100px;
+	height:80px;
+	}
+	.logo{
+	background:white;
+	font-family:Harlow solid;
+	text-align:center;
+	}
+	.mid{
+	display:block;
+	width:50%;
+	margin:25px auto;
+	}
+	.right{
+	position:absolute;
+	right:20px;
+	top:25px;
+	display:inline-block;
+	}
+	.navbar{
+	display:inline-block;
+	}
+	.navbar li{
+	display:inline-block;
+	}
+	.navbar li a{
+	color:white;
+	text-decoration:none;
+	padding:15px 10px;
+	font-size:20px;
+	font-family:verdana;
+	}
+	.navbar li a:hover, .navbar li a.active{
+	text-decoration:underline;
+	color:grey;
+	}
+	.btn{
+	margin:0px 9px;
+	background-color:black;
+	color:white;
+	border: 2px solid grey;
+	border-radius:10px;
+	cursor:pointer;
+	}
+	.btn:hover{
+	background-color:rgb(19,18,18);
+	}
+	.container{
+	margin: 106px 80px;
+	padding: 75px;
+	width:33%;
+	border-radius:28px;
+	}
+	.container h1{
+	color:white;
+	font-family:verdana;
+	text-align:center;
+	}
+	.form-group input{
+	text-align:center;
+	display:block;
+	width:450px;
+	color:solid-grey;
+	padding:2px;
+	margin:11px auto;
+	border-radius:8px;
+	font-size:20px;
+	font-family:verdana;
+	}
+	.container button{
+	margin:20px auto;
+	display:block;
+	width:75px;
+	
+	}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body>
+	<header class="header">
+	<div class="left">
+	<img src="https://image.shutterstock.com/image-illustration/orange-dumbbell-logo-on-black-600w-261351398.jpg">
+	<div class="logo">Ishu Fitness</div>
+	</div>
+	<div class="mid">
+	<ul class="navbar">
+	<li><a href="#" class="active">Home</a></li>
+	<li><a href="#">About Us</a></li>
+	<li><a href="#">Fitness Calculator</a></li>
+	<li><a href="#">Contact Us</a></li>
+	</ul>
+	</div>
+	<div class="right">
+	<button class="btn">Call Us now</button><button class="btn">Email Us now</button>
+	</div>
+	
+	</header>
+	<div class="container">
+	<h1>Join the best gym of Muzaffarpur now!</h1>
+	<form action="no action.php">
+		<div class="form-group">
+		<input type="text" name="" Placeholder="Enter your name">
+		</div>
+		<div class="form-group">
+		<input type="text" name="" Placeholder="Enter your age">
+		</div>
+		<div class="form-group">
+		<input type="text" name="" Placeholder="Enter your gender">
+		</div>
+		<div class="form-group">
+		<input type="text" name="" Placeholder="Enter your locality">
+		</div>
+		<div class="form-group">
+		<input type="text" name="" Placeholder="Enter your phone number">
+		</div>
+		<div>
+		<button class="btn">Submit</button>
+		</div>
+	</form>
+	</div>
+</body>
+</html>
